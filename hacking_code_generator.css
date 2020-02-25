@@ -1,0 +1,66 @@
+
+html, body {
+    margin: 0;
+    padding: 0; 
+    height: 100%;  
+}
+
+/* Extra */
+body {
+    background-image: url("images/ano.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.switchButton-wrapper {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000ad; /* Extra */
+    border-bottom: solid 1px #0bb90b; /* Extra */
+}
+
+.stopRun-btn {
+    width: fit-content;
+    height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: Solid 1px #0bb90b; /* Extra */
+    color: #0bb90b; /* Extra */
+    font-family: fantasy; /* Extra */
+    font-size: x-large; /* Extra */
+
+}
+
+/* Extra */
+.stopRun-btn:hover { 
+    background-color: #36783673; 
+    cursor: pointer;
+}
+
+.generatedText-wrapper {
+    min-height: 90%;
+    max-height: fit-content;
+    background-color: #000000ad; /* Extra */
+}
+
+.text {
+    margin: 0px;
+    padding: 20px;
+    word-wrap: break-word;
+    color: #0bb90b; /* Extra */
+    text-shadow: 3px 0px 9px rgba(52,188,46,0.80); /* Extra */
+    FONT-SIZE: large; /* Extra */
+}
