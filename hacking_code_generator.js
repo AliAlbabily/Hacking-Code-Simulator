@@ -1,5 +1,5 @@
 
-let characters = "ABCDEFab";
+let characters = "ABCDEF";
 let isPaused = false; 
 let interval = null;
 let numberOfCalls = 0;
@@ -10,7 +10,7 @@ function generateRandomNumber() {
 }
 
 function generateRandomAlphabet(chars) {
-    var randomIndex = Math.floor(Math.random() * 8);
+    var randomIndex = Math.floor(Math.random() * 6);
     return chars[randomIndex];
 }
 
@@ -51,7 +51,7 @@ function codeCombinations(numberOfCalls) {
         else if(randomPercent > 0.55 && randomPercent <= 0.95) {
             return generateRandomAlphabet(characters);
         } 
-        else if(randomPercent > 0.95 && randomPercent < 0.999) {
+        else {
             return generateSpace();
         }
     }
